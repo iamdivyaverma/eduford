@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>University website</title>
+</head>
+
+<body>
+    <!-- header section start -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <!-- header section end -->
+
+    <!-- blog page section start -->
+    <section class="blog-page">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatibus voluptas debitis eum illo sit consectetur corrupti odio voluptate laboriosam delectus placeat eveniet, fuga saepe quibusdam? Quam ipsam quos qui.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatibus voluptas debitis eum illo sit consectetur corrupti odio voluptate laboriosam delectus placeat eveniet, fuga saepe quibusdam? Quam ipsam quos qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed architecto est alias, iusto sapiente molestias sit aspernatur exercitationem, non enim modi tenetur reiciendis, fugit doloremque minima quidem hic animi?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatibus voluptas debitis eum illo sit consectetur corrupti odio voluptate laboriosam delectus placeat eveniet, fuga saepe quibusdam? Quam ipsam quos qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed architecto est alias, iusto sapiente molestias sit aspernatur exercitationem, non enim modi tenetur reiciendis, fugit doloremque minima quidem hic animi?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, voluptatibus voluptas debitis eum illo sit consectetur corrupti odio voluptate laboriosam delectus placeat eveniet, fuga saepe quibusdam? Quam ipsam quos qui. </p>
+
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+<textarea rows="5" placeholder="your comment"></textarea>
+<button type="submit" class="hero-btn  red-btn">Post Comment</button>
+    </form>
+</div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>22</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- blog page section end -->
+
+    <!-- footer section star -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eligendi dolores distinctio a accusamus saepe
+            commodi!<br> Aut nostrum nihil quidem, ut iusto, dignissimos repudiandae official.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by divya verma </p>
+    </section>
+    <!-- footer section end -->
+    <!-- javascripts for toggle menu  -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+</body>
+
+</html>
